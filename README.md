@@ -3,7 +3,7 @@
 [![npm version][npm badge]][npm url]
 [![GitHub license][license badge]][license url]
 
-Add TailwindCSS variant to style autocompleted form field.
+Add TailwindCSS variant to style autocompleted form fields.
 
 ## Install
 
