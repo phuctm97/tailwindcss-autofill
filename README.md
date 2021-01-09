@@ -3,7 +3,7 @@
 [![npm version][npm badge]][npm url]
 [![GitHub license][license badge]][license url]
 
-Add TailwindCSS variant to style autocompleted form fields.
+TailwindCSS variant to style autocompleted form fields.
 
 ## Install
 
@@ -36,7 +36,7 @@ module.exports = {
 };
 ```
 
-Style your components with `autofill:`:
+Style your components using `autofill:`:
 
 ```jsx
 <input className="border border-gray-100 autofill:border-gray-900" />
