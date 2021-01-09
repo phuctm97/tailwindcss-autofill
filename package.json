@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss-autofill",
+  "version": "0.0.0",
+  "description": "🎨 TailwindCSS variant to style autocompleted form fields.",
+  "repository": "https://github.com/phuctm97/tailwindcss-autofill",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "author": {
+    "name": "Minh-Phuc Tran",
+    "email": "me@phuctm97.com",
+    "url": "https://phuctm97.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "style:check": "prettier --check .",
+    "style:format": "prettier --write ."
+  },
+  "peerDependencies": {
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
