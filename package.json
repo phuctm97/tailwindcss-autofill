@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-autofill",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "🎨 TailwindCSS variant to style autocompleted form fields.",
   "keywords": [
     "tailwindcss",
