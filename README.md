@@ -29,17 +29,18 @@ Add to `plugins` in your **tailwind.config.js**:
 
 ```js
 module.exports = {
-  // ...
+  // ....
   plugins: [
     require("tailwindcss-autofill"),
-    // Other plugins.
+    // ...other plugins
   ],
   // For TailwindCSS v2 only
   variants: {
     extend: {
       // Enable `autofill` variant for plugins you want
-      borderColor: ["autofill],
+      borderColor: ["autofill"],
       shadowFill: ["autofill"],
+      textFill: ["autofill"],
     },
   },
 };
@@ -50,7 +51,7 @@ This plugin is often used with the [tailwindcss-shadow-fill](https://github.com/
 Style your components using `autofill:`:
 
 ```jsx
-<input className="border border-gray-100 autofill:border-gray-900 autofill:shadow-fill-white autofill:text-fill-gray-900" />
+<input className="autofill:border-gray-900 autofill:shadow-fill-white autofill:text-fill-gray-900" />
 ```
 
 ## Contributing
