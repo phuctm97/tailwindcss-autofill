@@ -1,14 +1,14 @@
 {
-  // Code style
+  "javascript.suggestionActions.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-
-  // Misc
   "files.exclude": {
-    "node_modules/": true,
-    "yarn.lock": true
-  }
+    "node_modules": true,
+    "yarn.lock": true,
+    ".husky": true
+  },
+  "conventionalCommits.gitmoji": false
 }

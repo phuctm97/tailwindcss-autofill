@@ -1,6 +1,8 @@
 {
   "name": "tailwindcss-autofill",
   "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
   "description": "🎨 TailwindCSS variant to style autocompleted form fields.",
   "keywords": [
     "tailwindcss",
@@ -9,25 +11,29 @@
     "tailwindcss-utility"
   ],
   "repository": "https://github.com/phuctm97/tailwindcss-autofill",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "author": {
     "name": "Minh-Phuc Tran",
     "email": "me@phuctm97.com",
     "url": "https://phuctm97.com"
   },
-  "license": "MIT",
-  "private": false,
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "style:check": "prettier --check .",
-    "style:format": "prettier --write ."
+    "prepare": "husky install"
   },
   "peerDependencies": {
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-angular": "^16.2.3",
+    "@commitlint/prompt-cli": "^16.2.3",
+    "cspell": "^5.19.7",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "semantic-release": "^19.0.2"
   }
 }
