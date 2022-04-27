@@ -24,7 +24,7 @@
     "prepare": "husky install"
   },
   "peerDependencies": {
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": ">=2.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
