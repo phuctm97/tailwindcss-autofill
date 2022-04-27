@@ -34,18 +34,23 @@ module.exports = {
     require("tailwindcss-autofill"),
     // Other plugins.
   ],
+  // For TailwindCSS v2 only
   variants: {
     extend: {
-      borderColor: ["autofill", "dark"], // Enable `autofill` variant for plugins you want.
+      // Enable `autofill` variant for plugins you want
+      borderColor: ["autofill],
+      shadowFill: ["autofill"],
     },
   },
 };
 ```
 
+This plugin is often used with the [tailwindcss-shadow-fill](https://github.com/phuctm97/tailwindcss-shadow-fill) and [tailwindcss-text-fill](https://github.com/phuctm97/tailwindcss-text-fill) because `background-color` and `color` won't work.
+
 Style your components using `autofill:`:
 
 ```jsx
-<input className="border border-gray-100 autofill:border-gray-900" />
+<input className="border border-gray-100 autofill:border-gray-900 autofill:shadow-fill-white autofill:text-fill-gray-900" />
 ```
 
 ## Contributing
@@ -72,9 +77,9 @@ Style your components using `autofill:`:
 
 - When a PR is merged or code is pushed to `master`, Github automatically builds and publishes a new release if there're relevant changes
 
----
+## Author
 
-Made by [@phuctm97].
+- [Minh-Phuc Tran][@phuctm97]
 
 <!-- Badges -->
 
