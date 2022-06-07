@@ -27,7 +27,7 @@
     "tailwindcss": ">=2.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
+    "@commitlint/cli": "^17.0.2",
     "@commitlint/config-angular": "^16.2.3",
     "@commitlint/prompt-cli": "^16.2.3",
     "cspell": "^6.1.1",
