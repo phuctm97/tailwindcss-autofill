@@ -127,6 +127,26 @@
     ts-node "^10.8.1"
     typescript "^4.6.4"
 
+"@commitlint/load@^17.5.0":
+  version "17.5.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.5.0.tgz#be45dbbb50aaf5eb7e8e940e1e0d6171d1426bab"
+  integrity sha512-l+4W8Sx4CD5rYFsrhHH8HP01/8jEP7kKf33Xlx2Uk2out/UKoKPYMOIRcDH5ppT8UXLMV+x6Wm5osdRKKgaD1Q==
+  dependencies:
+    "@commitlint/config-validator" "^17.4.4"
+    "@commitlint/execute-rule" "^17.4.0"
+    "@commitlint/resolve-extends" "^17.4.4"
+    "@commitlint/types" "^17.4.4"
+    "@types/node" "*"
+    chalk "^4.1.0"
+    cosmiconfig "^8.0.0"
+    cosmiconfig-typescript-loader "^4.0.0"
+    lodash.isplainobject "^4.0.6"
+    lodash.merge "^4.6.2"
+    lodash.uniq "^4.5.0"
+    resolve-from "^5.0.0"
+    ts-node "^10.8.1"
+    typescript "^4.6.4 || ^5.0.0"
+
 "@commitlint/message@^17.4.2":
   version "17.4.2"
   resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-17.4.2.tgz#f4753a79701ad6db6db21f69076e34de6580e22c"
@@ -142,21 +162,21 @@
     conventional-commits-parser "^3.2.2"
 
 "@commitlint/prompt-cli@^17.0.0":
-  version "17.4.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-17.4.4.tgz#fabeffa7cfeae1d8b2ccd6fde1fba43a9e4d2d0f"
-  integrity sha512-/tH9KPD9wo/prlDv4SvIGY/3bRE4Be7G3FGyo5nJTIIAQ9XXU1f6xkOEP6q78NnwfLDt3cuuIewWWmzRNzOujg==
+  version "17.5.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-17.5.0.tgz#7e7d37ab99a3e40885c5fdf11ee6fea407cf0926"
+  integrity sha512-+pjD2TyZ+jngFP26oJsRTk1VBZrfX0fxrvoNjULoRilqD/cH96S1GC+dzLA+1M1bNwKye4Ff/SNLdwj9jaFXxA==
   dependencies:
-    "@commitlint/prompt" "^17.4.4"
+    "@commitlint/prompt" "^17.5.0"
     execa "^5.0.0"
     inquirer "^6.5.2"
 
-"@commitlint/prompt@^17.4.4":
-  version "17.4.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-17.4.4.tgz#22eb84bb1d51e6580259e63edbc433cdf8ae0090"
-  integrity sha512-qWC2fydBnAQp+jJqoPYLzzQ6NFMBNm/GlP+oeYOHhMwCXl9nptDGXUJnW3cdL6G4QMYKqJv1czRfATzMXHDHcg==
+"@commitlint/prompt@^17.5.0":
+  version "17.5.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-17.5.0.tgz#b135f47aaddbe219754433f2584bfe0e80a74f6c"
+  integrity sha512-UVgGj5/VYydaLaEGw3GMgBrG+vlS0OKt6hih5vkAu74KMGtUxWT7ACE/VTDuZtMv4u/bew9f6GgOr6LKIhqGng==
   dependencies:
     "@commitlint/ensure" "^17.4.4"
-    "@commitlint/load" "^17.4.4"
+    "@commitlint/load" "^17.5.0"
     "@commitlint/types" "^17.4.4"
     chalk "^4.1.0"
     inquirer "^6.5.2"
@@ -4616,6 +4636,11 @@ typescript@^4.6.4:
   version "4.7.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.3.tgz#8364b502d5257b540f9de4c40be84c98e23a129d"
   integrity sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==
+
+"typescript@^4.6.4 || ^5.0.0":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.3.tgz#fe976f0c826a88d0a382007681cbb2da44afdedf"
+  integrity sha512-xv8mOEDnigb/tN9PSMTwSEqAnUvkoXMQlicOb0IUVDBSQCgBSaAAROUZYy2IcUy5qU6XajK5jjjO7TMWqBTKZA==
 
 uglify-js@^3.1.4:
   version "3.15.4"
