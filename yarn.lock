@@ -142,18 +142,18 @@
     conventional-commits-parser "^3.2.2"
 
 "@commitlint/prompt-cli@^17.0.0":
-  version "17.5.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-17.5.0.tgz#7e7d37ab99a3e40885c5fdf11ee6fea407cf0926"
-  integrity sha512-+pjD2TyZ+jngFP26oJsRTk1VBZrfX0fxrvoNjULoRilqD/cH96S1GC+dzLA+1M1bNwKye4Ff/SNLdwj9jaFXxA==
+  version "17.6.5"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-17.6.5.tgz#dbf336460ee12e82b3bbf0c5bef683761c5df4d4"
+  integrity sha512-O+PWlxF9wgVQZMnMKcnW8qG3IZFoU9rFwk0f6glPqgXokSivjR1Lw+YNcFDbhQtH91W8IO2vNVe/niDG01To5w==
   dependencies:
-    "@commitlint/prompt" "^17.5.0"
+    "@commitlint/prompt" "^17.6.5"
     execa "^5.0.0"
     inquirer "^6.5.2"
 
-"@commitlint/prompt@^17.5.0":
-  version "17.5.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-17.5.0.tgz#b135f47aaddbe219754433f2584bfe0e80a74f6c"
-  integrity sha512-UVgGj5/VYydaLaEGw3GMgBrG+vlS0OKt6hih5vkAu74KMGtUxWT7ACE/VTDuZtMv4u/bew9f6GgOr6LKIhqGng==
+"@commitlint/prompt@^17.6.5":
+  version "17.6.5"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-17.6.5.tgz#725e53ceafd025c858547f0025e0ce880f54d4e6"
+  integrity sha512-Zm4pkIvTN/VpnFNUg6D9aiQNdPB2iASmkm4QqR+JCgc6Fa/JNazWaM6g4onLjPbfh8+A4v4Q62/VHRvhlb5NHA==
   dependencies:
     "@commitlint/ensure" "^17.4.4"
     "@commitlint/load" "^17.5.0"
