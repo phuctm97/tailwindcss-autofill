@@ -32,7 +32,7 @@
     "@commitlint/prompt-cli": "^17.0.0",
     "cspell": "^6.1.1",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "^2.6.2",
     "semantic-release": "^19.0.2"
   }
