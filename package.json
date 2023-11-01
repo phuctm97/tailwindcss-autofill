@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
-    "@commitlint/config-angular": "^17.0.0",
+    "@commitlint/config-angular": "^18.1.0",
     "@commitlint/prompt-cli": "^17.0.0",
     "cspell": "^6.1.1",
     "husky": "^8.0.1",
